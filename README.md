@@ -1,5 +1,5 @@
 # WhoopsReport
-A Laravel package to send a report when occurring bug.
+A Laravel package to send a report when occurring bug.(for Laravel 4.2)
 
 ![Whoops Report](http://i.imgur.com/yG4arHk.png)
 
