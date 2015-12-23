@@ -57,6 +57,24 @@ You also can set cc and/or bcc email addresses like this.
 		'bcc' => ['bcc1@example.com'],
 	]);
 
+# Locale
+
+If you'd like to use language except English, you need to set a lang file like this.
+
+(in case of Japanese)
+
+`app/lang/packages/ja/whoops-report/message.php`
+
+    <?php
+    
+    return [
+        'title' => 'エラーが発生しました。',
+        'description' => 'ご不便をお掛けしまして申し訳ございません。以下に不具合の状況をできるだけ詳細にご記入し送信してください。',
+        'button' => '報告する',
+        'confirm' => 'バグ報告を送信します。よろしいですか?',
+        'complete' => 'バグ報告が送信されました。ご協力ありがとうございました。',
+    ];
+
 # Note
 
 I guess that you might need to check authorized in routes.php.
